@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="22.442">
+    <testcase classname="Title of your feature" name="Select title MR from dropdown" time="6.132">
+        <system-out><![CDATA[Given the user is on the quote page.........................................passed
+When the dropdown is selected...............................................passed
+Then user can select the title MR...........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Title of your feature" name="A invalid email address is entered" time="4.053">
+        <system-out><![CDATA[Given the user is on the quote page.........................................passed
+When an invalid email address "qwer1234" is entered.........................passed
+Then an error is displayed..................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Title of your feature" name="A valid email address is entered" time="3.956">
+        <system-out><![CDATA[Given the user is on the quote page.........................................passed
+When a valid email address is "qwer1234" entered............................passed
+Then no error is displayed..................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Title of your feature" name="Postcode lookup for valid postcode" time="4.064">
+        <system-out><![CDATA[Given the user is on the quote page.........................................passed
+When they complete the Your Details Section and enter a valid postcode and clicks find address.passed
+Then a list of addresses is shown...........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Title of your feature" name="Quote form completed" time="4.052">
+        <system-out><![CDATA[Given the user is on the quote page.........................................passed
+When they complete all sections with valid information and click continue...passed
+Then the summary page is displayed..........................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
